@@ -7,7 +7,20 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<header>
+    <li><%= link_to "Home", "/home" %></li>
+    <li><%= link_to "About", "/about" %></li>
+    <li><%= link_to "Resume", "/resume" %></li>
 
+</header>
+<sidebar>
+    <li><%= link_to "Email", "/email" %></li>
+</sidebar>
+<footer>
+    <li><%= link_to "Home", "/home" %></li>
+    <li><%= link_to "About", "/about" %></li>
+    <li><%= link_to "Resume", "/resume" %></li>
+</footer>
 <%= yield %>
 
 </body>

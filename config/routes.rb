@@ -9,6 +9,8 @@ SECRET::Application.routes.draw do
   match "about", to: "pages#about" 
   
   match "resume", to: "pages#resume"
+
+  match "emails", to: "pages#email"
   
 
   # The priority is based upon order of creation:
