@@ -1,12 +1,15 @@
 SECRET::Application.routes.draw do
- root :to => 'pages#home'
+  resources :emails
 
 
-  get "pages/home"
+  root :to => 'pages#home'
 
-  get "pages/about"
+  match "home", to: "pages#home"
 
-  get "pages/resume"
+  match "about", to: "pages#about" 
+  
+  match "resume", to: "pages#resume"
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
