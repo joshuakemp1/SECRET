@@ -1,5 +1,5 @@
 SECRET::Application.routes.draw do
-    # root :to => 'welcome#index'
+ root :to => 'pages#home'
 
 
   get "pages/home"
