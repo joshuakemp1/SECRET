@@ -7,15 +7,23 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<header>
-    <li><%= link_to "Home", "/home" %></li>
-    <li><%= link_to "About", "/about" %></li>
-    <li><%= link_to "Resume", "/resume" %></li>
+<div id="header">
+   
+<%= render :partial => "layouts/header" %>
+</div>
 
-</header>
-<section id="footer-container">
+<div id="logo">
+
+<%= image_tag ("joshs_logo.jpg") %>
+</div>
+
+
+
+
 <%= yield %>
-</section>
+<div id="footer">
+</div>
+
 <%= render :partial => "layouts/footer" %>
 
 </body>
