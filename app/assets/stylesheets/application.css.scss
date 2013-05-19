@@ -12,6 +12,17 @@
  *= require_tree .
  */
 
+p {
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+h3 {
+    text-align: center;
+    
+}
+
 
 div.sidebar_2 {
     float:left;
@@ -25,7 +36,10 @@ div.sidebar {
     float:right;
     min-width: 250px;
     height: 600px;
-
+      img {
+       float:right;
+       padding-right: 20px;
+    }
 }
 
 
