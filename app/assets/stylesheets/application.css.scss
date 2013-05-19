@@ -15,11 +15,13 @@
 
 
 
-div.center_image {
-     text-align: center;
-    padding-right:250px;
-    padding-left: 250px;
-}
+div.center_image{
+    text-align: center;
+    img {
+        border-radius: 20px;
+    }
+     }
+
 
 #container {
 
