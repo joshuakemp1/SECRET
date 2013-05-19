@@ -13,15 +13,10 @@
     <li><%= link_to "Resume", "/resume" %></li>
 
 </header>
-<sidebar>
-    <li><%= link_to "Email", "/email" %></li>
-</sidebar>
-<footer>
-    <li><%= link_to "Home", "/home" %></li>
-    <li><%= link_to "About", "/about" %></li>
-    <li><%= link_to "Resume", "/resume" %></li>
-</footer>
+<section id="footer-container">
 <%= yield %>
+</section>
+<%= render :partial => "layouts/footer" %>
 
 </body>
 </html>
