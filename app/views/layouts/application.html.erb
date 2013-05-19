@@ -8,9 +8,9 @@
 </head>
 <body>
 
-<div id="header_1">   
+<header>   
 <%= render :partial => "layouts/header" %>
-</div>
+</header>
 
 <div id="logo">
 <%= image_tag ("joshs_logo.jpg") %>
@@ -20,10 +20,10 @@
 
 
 <%= yield %>
-<div id="footer_1">
-</div>
+<footer>
+
 
 <%= render :partial => "layouts/footer" %>
-
+</footer>
 </body>
 </html>
