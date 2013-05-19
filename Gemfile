@@ -22,6 +22,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem "better_errors", "~> 0.8.0"
 
 group :test do
 gem 'sqlite3'

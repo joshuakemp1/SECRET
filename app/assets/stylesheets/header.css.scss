@@ -1,0 +1,32 @@
+ header {
+    background: #fff;
+    padding:10px;
+
+    input{
+      
+      padding-right: 5px;
+      margin-right: 5px;
+      border-radius: 20px;
+      float: right;
+      font-size: 0.9em;
+      color: #D40020;
+       &:hover {
+      color: #525252;
+      text-decoration: none;
+   
+
+    }
+
+    }
+    a{
+    text-decoration: none;    
+    color: #525252;
+    float:right;
+    margin-right: 20px;
+    font-size: 1.0em;
+      &:hover {
+      color: #D40020;
+      text-decoration: none;
+    }
+    }
+}
