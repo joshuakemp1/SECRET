@@ -14,14 +14,19 @@
 
 
 
+
+div.center_image {
+     text-align: center;
+    padding-right:250px;
+    padding-left: 250px;
+}
+
 #container {
 
     min-height: 100%;
     position: relative;
 
 }
-
-
 
 body {
 
@@ -30,12 +35,6 @@ body {
     height: 100%;
 }
    
-
-#main_text {
-   padding: 0;
-   padding-bottom: 60px; /* Height of the footer */
-    
-}
 
 
  a {
