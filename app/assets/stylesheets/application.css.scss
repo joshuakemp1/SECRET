@@ -29,7 +29,7 @@ h2,h3,h4,h5,h6 {
 div.sidebar_2 {
     float:left;
     min-width: 185px;
-    height: 600px;
+    height: 1000px;
 
 }
 
@@ -58,17 +58,51 @@ div.sidebar {
 div.youtube {
     text-align: center;
     padding-top: 35px;
+    padding-bottom: 100px;
 
 
 }
 
+
+
 div.center_image{
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 100px;
     img {
         border-radius: 20px;
     }
      }
+
+
+
+div.home_center_image{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    pa
+    img {
+        border-radius: 20px;
+    }
+     }
+
+
+
+ div.arrow_text{
+margin-left: auto;
+margin-right: auto;
+padding-left: 350px;
+
+   img { 
+    margin-bottom: 15px;
+    margin-left: 260px;
+  
+}
+ }
+
+
+
 
 
 #container {
