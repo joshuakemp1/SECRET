@@ -23,6 +23,7 @@ end
 
 gem 'jquery-rails'
 gem "better_errors", "~> 0.8.0"
+gem "binding_of_caller", "~> 0.7.1"
 
 group :test do
 gem 'sqlite3'
