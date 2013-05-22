@@ -40,31 +40,4 @@ class EmailsController < ApplicationController
     end
   end
 
-  # PUT /emails/1
-  # PUT /emails/1.json
-  def update
-    @email = Email.find(params[:id])
 
-    respond_to do |format|
-      if @email.update_attributes(params[:email])
-        format.html { redirect_to @email, notice: 'Email was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: "edit" }
-        format.json { render json: @email.errors, status: :unprocessable_entity }
-      end
-    end
-  end
-
-  # DELETE /emails/1
-  # DELETE /emails/1.json
-  def destroy
-    @email = Email.find(params[:id])
-    @email.destroy
-
-    respond_to do |format|
-      format.html { redirect_to emails_url }
-      format.json { head :no_content }
-    end
-  end
-end
