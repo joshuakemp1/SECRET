@@ -93,7 +93,7 @@ div.youtube {
 
 div.resume_center_image_1{
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     img {
         border-radius: 20px;
     }
@@ -101,7 +101,7 @@ div.resume_center_image_1{
 
  div.resume_center_image_2{
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     img {
         border-radius: 20px;
     }
@@ -109,7 +109,7 @@ div.resume_center_image_1{
 
  div.resume_center_image_3{
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     img {
         border-radius: 20px;
     }
@@ -147,14 +147,13 @@ div.h3_about {
 
 
 div.center_image_about_1{
+    padding-left: 10px;
     margin-left: auto;
     margin-right: auto;
     img {
-        padding-left: 2%;
-        border-radius-top: 20px;
-        border-radius-right:20px;
-        border-radius-bottom: 20px;
-        border-radious-top: 20px;
+        border-radius: 10px;
+        
+
       
 
     }
@@ -166,8 +165,8 @@ div.center_image_about_2{
     margin-left: 25%;
     margin-right: auto;
    
-    img {
-        
+    img { 
+        border: 3px solid #525252; 
         border-radius: 20px;
     }
      }
@@ -176,8 +175,11 @@ div.center_image_about_2{
 div.center_image_about_3{
     margin-left: 55%;
     margin-right: auto;
+    padding-bottom: 10px;
+
     img {
-        
+
+        border: 3.5px solid #525252; 
         border-radius: 20px;
     }
      }
