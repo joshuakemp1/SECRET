@@ -139,6 +139,18 @@ div.home_center_image{
      }
 
 
+div.home_center_youtube{
+    text-align: center;
+    padding-top: 35px;
+
+
+iframe#youtube_shadow {
+    float: center;
+    box-shadow:    3px 3px 5px 6px black;
+    border-radius: 50px;
+     }
+}   
+
 
 div.p_resume {
   text-align: center;
