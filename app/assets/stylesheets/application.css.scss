@@ -98,11 +98,7 @@ div.sidebar_about {
 }
 
 
-div.youtube {
-    text-align: center;
-    padding-top: 35px;
 
-}
 
 
 
@@ -133,11 +129,11 @@ div.resume_center_image_1{
 
 
 div.home_center_image{
-   text-align: center;
+    text-align: center;
     padding-top: 35px;
    
     img {
-
+        box-shadow:         3px 3px 5px 6px black;
         border-radius: 20px;
     }
      }
