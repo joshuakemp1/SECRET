@@ -71,16 +71,14 @@ div.sidebar_4 {
 div.sidebar {
     float:right;
     min-width: 200px;
-    height: 900px;
-      img {
-       float:right;
-       padding-right: 40px;
-      h1  {
-
-
+    ul {
+      list-style: none;
+      li {
+        text-align: center;
       }
-   }
-}
+    }
+  }
+
 
 
 div.sidebar_about {
